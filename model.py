@@ -9,7 +9,7 @@ from sklearn.metrics import recall_score, precision_score, f1_score
 from sklearn.metrics import confusion_matrix, roc_curve, auc
 from sklearn.svm import SVC
 
-df = pd.read_csv(r"C:\Users\sahar\OneDrive\Desktop\ds and ml files\Pharma_Industry.csv")
+df = pd.read_csv("Pharma_Industry.csv")
 
 print(df.info())
 print(df.describe())
